@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Philosofer-Regular;
-  src: url(/Teaching/Web-development/bakery/fonts/Philosopher-Regular.ttf);
+  src: url(/bakery-miko/fonts/Philosopher-Regular.ttf);
 }
 
 body {
@@ -47,7 +47,7 @@ nav {
 
 .section-image {
   position: relative;
-  background-image: url(/Teaching/Web-development/bakery/img/background_image.jpg);
+  background-image: url(/bakery-miko/img/background_image.jpg);
   height: 640px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,3 +165,4 @@ img {
 img:hover {
   transform: scale(120%);
 }
+
