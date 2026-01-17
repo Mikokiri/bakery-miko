@@ -78,7 +78,7 @@ nav {
   padding: 17px 28px 0 28px;
 }
 
-.section-image__title {
+.section-image__title, .block-adaptive__title {
   font-size: 3.6rem;
   margin-bottom: 0.9rem;
   font-family: Philosofer-Regular;
@@ -172,5 +172,15 @@ img:hover {
 }
 .icon:hover{
   transform:scale(105%);
-  filter:  0.3rem 0.5rem rgba(0, 0, 0, 0.5))
+  filter:  0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.block-adaptive {
+  display: none;
+  text-align: center;
+  width: 90%;
+  border: .2rem dashed #f15b40;
+  margin: 0 auto 2rem auto;
+}
+.block-adaptive__text [open] {
+  padding-bottom: 2rem;
 }

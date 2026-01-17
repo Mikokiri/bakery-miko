@@ -1,0 +1,29 @@
+/* 1070px */
+
+@media (max-width: 1070px) {
+  .section-description__icon-box {
+    height: 22rem;
+  }
+  .section-description__title {
+    font-size: 8rem;
+  }
+}
+
+/* 850px */
+
+@media (max-wight: 560px) {
+  /*secrion-descriprion__icon-box{
+  height: 22rem;
+} */
+  .section-description__title {
+    font-size: 6rem;
+  }
+
+  .section-image_block {
+    display: none;
+  }
+
+  .block-adaptive {
+    display: none;
+  }
+}
