@@ -1,29 +1,30 @@
 /* 1070px */
 
 @media (max-width: 1070px) {
-  .section-description__icon-box {
+  /* .section-description__icon-box {
     height: 22rem;
-  }
+  } */
   .section-description__title {
     font-size: 8rem;
   }
 }
 
-/* 850px */
+/* 860px */
 
-@media (max-wight: 560px) {
-  /*secrion-descriprion__icon-box{
-  height: 22rem;
-} */
+@media (max-width: 860px) {
+  .section-description__icon-box {
+    height: 18rem;
+  }
+
   .section-description__title {
     font-size: 6rem;
   }
 
-  .section-image_block {
+  .section-image__block {
     display: none;
   }
 
   .block-adaptive {
-    display: none;
+    display: block;
   }
 }
