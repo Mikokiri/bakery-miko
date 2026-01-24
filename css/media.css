@@ -13,7 +13,9 @@
 
 @media (max-width: 860px) {
   .section-description__icon-box {
-    height: 18rem;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .section-description__title {
@@ -27,4 +29,17 @@
   .block-adaptive {
     display: block;
   }
+}
+@media (max-wight: 620px) {
+  ul{
+    gap: 0;
+    justify-content: space-evenly;
+}
+}
+
+/*390px*/
+@media (max-wight: 390px){
+  html {
+    font-size: 8px;
+}
 }
